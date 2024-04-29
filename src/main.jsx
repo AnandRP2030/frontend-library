@@ -8,7 +8,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/*" element={<App />} />
+        <Route path="/" element={<App />} />
+        <Route path="/*" element={<h1> Please check the routes </h1>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
